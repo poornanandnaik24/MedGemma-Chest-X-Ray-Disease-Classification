@@ -46,6 +46,7 @@ Clone the repository:
 Bash
 git clone [https://github.com/poornanandnaik24/MedGemma-Chest-X-Ray-Disease-Classification.git](https://github.com/poornanandnaik24/MedGemma-Chest-X-Ray-Disease-Classification.git)
 cd MedGemma-Chest-X-Ray-Disease-Classification
+
 Model Setup (Jupyter):
 
 Open mps llm ver2-medgemma.ipynb in your Jupyter environment.
