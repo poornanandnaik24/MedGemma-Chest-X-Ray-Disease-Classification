@@ -21,3 +21,60 @@ This repository contains a comprehensive pipeline for automated chest X-ray dise
  ┣ 📜 mps llm ver2-medgemma.ipynb # Core Jupyter Notebook for MedGemma model execution
  ┣ 📜 .gitignore                  # Git ignore rules
  ┗ 📜 README.md                   # Project documentation
+
+
+🛠️ Tech Stack
+Machine Learning & NLP: Python, PyTorch (MPS enabled), Jupyter Notebook, Hugging Face Transformers
+
+Model: MedGemma
+
+Frontend: Web development framework (contained in frontend/)
+
+Deployment: Hugging Face Spaces
+
+🚀 Getting Started
+Prerequisites
+Python 3.8+
+
+Node.js & npm (for the frontend)
+
+Jupyter environment
+
+Installation
+Clone the repository:
+
+Bash
+git clone [https://github.com/poornanandnaik24/MedGemma-Chest-X-Ray-Disease-Classification.git](https://github.com/poornanandnaik24/MedGemma-Chest-X-Ray-Disease-Classification.git)
+cd MedGemma-Chest-X-Ray-Disease-Classification
+Model Setup (Jupyter):
+
+Open mps llm ver2-medgemma.ipynb in your Jupyter environment.
+
+Install the required Python dependencies (e.g., transformers, torch).
+
+Ensure your Hugging Face credentials are set up if downloading gated models.
+
+Frontend Setup:
+
+Bash
+cd frontend
+npm install
+npm start
+Hugging Face Space Deployment:
+
+Navigate to the hf_space_app/ directory.
+
+Push the contents of this directory to your Hugging Face Space repository to initialize the live app.
+
+🧠 Usage
+Run the local backend/model inference via the provided Jupyter Notebook.
+
+Launch the frontend application to access the user interface.
+
+Upload a Chest X-Ray image through the UI to generate a classification report utilizing the MedGemma model pipeline.
+
+👨‍💻 Author & Citation
+Poornanand Purushottam Naik Department of Computer Science and Engineering National Institute of Technology Karnataka (NITK), Surathkal If you use this project or code in your research, please consider giving the repository a star.
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
